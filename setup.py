@@ -7,9 +7,9 @@ base_dir = os.path.abspath(os.path.dirname('encrypt_dir'))
 
 setup(
     name='py_encrypt',
-    version='0.0.4',
+    version='0.0.1',
     description='A custom cryptography script',
-    packages=find_packages(where='encrypt_dir'),
+    packages=find_packages(where='ct_encrypt'),
     long_description='A custom cryptography script',
     long_description_content_type='text/markdown',
     url='https://github.com/Boluex/custom-cryptography-python-script.git',
