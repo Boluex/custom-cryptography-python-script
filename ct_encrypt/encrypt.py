@@ -26,7 +26,7 @@ class fernet():
             index=char.index(words)
             fernet.encrypted_message += global_key[index]
 
-        print(fernet.encrypted_message)
+        return fernet.encrypted_message
 
 
     def decrypt():
@@ -34,7 +34,7 @@ class fernet():
             index=global_key.index(words)
             fernet.decrypted_message+=char[index]
 
-        print(fernet.decrypted_message)
+        return fernet.decrypted_message
 
 
 
