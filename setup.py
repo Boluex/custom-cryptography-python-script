@@ -23,5 +23,5 @@ setup(
         'Operating System :: OS Independent',
     ],
     install_requires=[],
-    keywords='custom crytography script',
+    keywords='custom crytography script build',
 )
