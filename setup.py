@@ -7,7 +7,7 @@ base_dir = os.path.abspath(os.path.dirname('encrypt_dir'))
 
 setup(
     name='custom_encryption',
-    version='0.0.1',
+    version='0.0.2',
     description='A custom cryptography script using python',
     packages=find_packages(where='ct_encrypt'),
     long_description='A custom cryptography script',
